@@ -1,0 +1,16 @@
+{
+"name": "campusbuddy",
+"version": "1.0.0",
+"type": "module",
+"scripts": {
+"start": "node index.js",
+"seed": "node seed.js"
+},
+"dependencies": {
+"@langchain/groq": "^1.0.0",
+"better-sqlite3": "^12.2.0",
+"dotenv": "^16.4.7",
+"langchain": "^1.0.0",
+"zod": "^4.0.0"
+}
+}
